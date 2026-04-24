@@ -1,1 +1,1 @@
-Sitemap: https://AIML4OS.github.io/AIML4OS-template-quarto-python/sitemap.xml
+Sitemap: https://AIML4OS.github.io/WP10-cluster2-webscraperRAG/sitemap.xml
