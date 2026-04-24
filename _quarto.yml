@@ -3,7 +3,8 @@ project:
   execute-dir: project
   render: # Add HERE new chapters and new notebooks
     - index.qmd
-    - chapters/chapter1.qmd
+    - chapters/webscraping_pipeline.qmd
+    - chapters/rag_pipeline.qmd
     - notebooks/notebook1.qmd
 
 website:
@@ -21,7 +22,9 @@ website:
     contents: # Add HERE new chapters (but not the notebooks)
       - href: index.qmd
         text: Introduction
-      - href: chapters/chapter1.qmd
+      - href: chapters/webscraping_pipeline.qmd
+        text: A complete example
+      - href: chapters/rag_pipeline.qmd
         text: A complete example
 
 format:
