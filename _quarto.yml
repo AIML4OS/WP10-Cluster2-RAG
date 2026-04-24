@@ -9,7 +9,7 @@ project:
 
 website:
   page-navigation: true
-  title: "Template for training resources in Python"
+  title: "Using LLMs for text classification"
   # In the two URLs below:
   # - replace AIML4OS by the Github account/organization your repository is hosted by;
   # - replace AIML4OS-template-quarto-python by the name of your repository.
@@ -23,9 +23,9 @@ website:
       - href: index.qmd
         text: Introduction
       - href: chapters/webscraping_pipeline.qmd
-        text: A complete example
+        text: Webscraping pipeline
       - href: chapters/rag_pipeline.qmd
-        text: A complete example
+        text: RAG pipeline
 
 format:
   html:
