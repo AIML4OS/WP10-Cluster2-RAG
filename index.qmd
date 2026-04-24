@@ -1,18 +1,20 @@
 ---
-title: "Template for Python training material" # See below for multilingual resource
+title: "Using LLMs for text calssification" # See below for multilingual resource
 format: html # This qmd file will be compiled as HTML only (no notebook)
 include-before-body:
   - text: <img src="resources/cover/main2.png" style="max-width:900px;width:100%"><br>
 author:
-  - name: Public Statistician 1
+  - name: Krystyna Piâtkowska
     url: https://github.com/publicstatistician1
-    email: Public.Statistician1@statistics.org
-  - name: Public Statistician 2
-    url: https://github.com/publicstatistician2
-    email: Public.Statistician2@statistics.org
+    email: k.piatkowska@stat.gov.pl
+  - name: Susie Jentoft
+    url: https://github.com/sjentoft
+    email: susie.jentoft@ssb.no
+  - name: Boriska Toth
+    url: https://github.com/bto-ssb
+    email: boriska.toth@ssb.no
 date: "2025-05-16"
-doi: "10.1000/182"  # Optional
-license: "CC-BY 4.0"  # Optional
+
 
 # If resources is multilingual, adopt that structure
 # (need to have both title and title-* fields)
@@ -91,13 +93,8 @@ gsbpm: "5.1" # See complete taxonomy: https://www.unescap.org/sites/default/d8fi
 ---
 
 
-# What is this template?
-
-This template is a Quarto Website customized for the AIML4OS project, designed to be used with {{< fa brands python >}}.
-
-# How to use it?
-
-See [this tutorial](https://aiml4os.github.io/training-material-starting-pack/).
+## Introduction
+...
 
 
 
