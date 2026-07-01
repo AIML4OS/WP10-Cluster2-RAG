@@ -1,19 +1,16 @@
 ---
-title: "Using LLMs for text calssification" # See below for multilingual resource
+title: "Using LLMs for text classification" # See below for multilingual resource
 format: html # This qmd file will be compiled as HTML only (no notebook)
 include-before-body:
   - text: <img src="resources/cover/main2.png" style="max-width:900px;width:100%"><br>
 author:
-  - name: Krystyna Piâtkowska
-    url: https://github.com/publicstatistician1
-    email: k.piatkowska@stat.gov.pl
   - name: Susie Jentoft
     url: https://github.com/sjentoft
     email: susie.jentoft@ssb.no
   - name: Boriska Toth
     url: https://github.com/bto-ssb
     email: boriska.toth@ssb.no
-date: "2025-05-16"
+date: "2026-07-01"
 
 
 # If resources is multilingual, adopt that structure
