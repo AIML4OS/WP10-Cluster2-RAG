@@ -1,1 +1,1 @@
-Sitemap: https://AIML4OS.github.io/WP10-cluster2-webscraperRAG/sitemap.xml
+Sitemap: https://aiml4os.github.io/WP10-Cluster2-RAG/sitemap.xml
