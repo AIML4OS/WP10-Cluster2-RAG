@@ -195,3 +195,21 @@ dmypy.json
 
 # PyPI configuration file
 .pypirc
+
+
+# CUSTOM
+
+# chromadb:
+chroma/
+chromadb/
+chroma_db/
+**/chroma/
+**/chromadb/
+**/chroma_db/
+*.sqlite3
+*.sqlite
+*.db
+
+# Generated temporary data
+**/temp/
+temp/
