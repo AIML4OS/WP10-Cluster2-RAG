@@ -1,5 +1,5 @@
 # Functions for building prompts
-import pnadas as pd
+import pandas as pd
 
 intro_prompt = "You are an expert in business industry classification. Your task is to assign the single most appropriate Norwegian NACE 5-digit (subclass) revision 2.1 industry code to a company based on the information provided."
 
