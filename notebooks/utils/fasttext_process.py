@@ -8,8 +8,11 @@ import re
 from bs4 import BeautifulSoup
 from io import StringIO
 import requests
+import time
 
 from sklearn.metrics import f1_score, accuracy_score
+
+from .formatting import get_sn
 
 from faker import Faker
 from faker.providers.person.no_NO import Provider as NoProvider
@@ -105,7 +108,7 @@ def fasttext_evaluate(test, labels_1, probs_1, labels_5, probs_5):
     top5_accuracy = sum(top5_correct) / len(top5_correct)
 
     # total time
-    total_time = (time.time() - t_start)/60
+  #  total_time = (time.time() - t_start)/60
 
     return {
         'valid_pct': valid_pct,
@@ -114,5 +117,5 @@ def fasttext_evaluate(test, labels_1, probs_1, labels_5, probs_5):
         'f1_macro': f1_macro,
         'f1_weighted':f1_weighted, 
         'top5_accuracy':top5_accuracy,
-        'total_time': total_time,
+  #      'total_time': total_time,
     }
